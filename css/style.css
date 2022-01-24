@@ -1,4 +1,4 @@
-body{
+html,body{
     margin: 0;
     padding: 0;
     font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
@@ -10,11 +10,12 @@ header{
 }
 .icon img{
     width: 135px;
+    padding-left:20px;
+    padding-top:20px;
 }
+
 .head img{
     position: absolute;
-    padding-top: 20px;
-    padding-left: 60px;
 }
 header nav{
     height: 100%;
@@ -47,18 +48,24 @@ header nav ul li.bar:hover{
     cursor: default;
 }
 
-#bandeau_upload{
-    background-color: rgb(25, 230, 140);
-    padding: 40px 15px 104px;
-}
 
-#bandeau_upload div{
-    text-align: center;
+
+
+
+
+
+
+footer{
+    color: white;
+    background-color:#000;
+    width:100vw;
+}
+footer{
     display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
+    justify-content: space-evenly;
+}
+footer nav{
+    display: flex;
     justify-content: center;
 }
 
@@ -73,4 +80,24 @@ header nav ul li.bar:hover{
 #bandeau_upload div #button:hover{
     background-color: #dedede;
     font-weight: bold;
+dt{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+dd{
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 3px 0 15px;
+}
+dd:hover{
+    cursor:pointer;
+    color: #1ed760;
 }
