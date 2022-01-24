@@ -69,3 +69,8 @@ header nav ul li.bar:hover{
     font-size: inherit;
     padding: 14px 32px;
 }
+
+#bandeau_upload div #button:hover{
+    background-color: #dedede;
+    font-weight: bold;
+}
