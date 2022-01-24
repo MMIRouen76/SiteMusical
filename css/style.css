@@ -46,3 +46,26 @@ header nav ul li.menu:hover{
 header nav ul li.bar:hover{
     cursor: default;
 }
+
+#bandeau_upload{
+    background-color: rgb(25, 230, 140);
+    padding: 40px 15px 104px;
+}
+
+#bandeau_upload div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+#bandeau_upload div #button{
+    background-color: var(--background-base,#ffffff);
+    color: var(--text-base,#000000);
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+}
