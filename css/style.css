@@ -50,9 +50,20 @@ header nav ul li.bar:hover{
 
 
 
-
-
-
+#plateform_upload{
+    background-color: white;
+    padding: 70px 15px;
+}
+#plateform_upload div{
+    margin: 0px auto;
+    max-width: 1170px;
+    text-align: center;
+}
+#plateform_upload h3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+}
 
 
 footer{
